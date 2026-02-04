@@ -1,0 +1,49 @@
+/* Custom marker styles */
+.custom-marker-icon {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+}
+
+.marker-good {
+  background-color: #22c55e;
+}
+
+.marker-fair {
+  background-color: #eab308;
+}
+
+.marker-poor {
+  background-color: #ef4444;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+/* Ensure map container has proper sizing */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
